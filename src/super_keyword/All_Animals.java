@@ -7,6 +7,7 @@ public class All_Animals {
 		//creating a object of dog class with object reference mydog 
 	
 		//this will also call the default constructor from dog class. this is remote change check 
+		//this is part of brabch change ----
 		
 		Dog mydog=new Dog();
 		
@@ -18,6 +19,11 @@ public class All_Animals {
 		mydog.make_noise();
 		
 		//Question: why I will make noise when hungry is displayed ??
+		
+		System.out.println("Message coming from the branch");
+		
+		System.out.println("Second Message added ");
+		
 		
 
 	}
